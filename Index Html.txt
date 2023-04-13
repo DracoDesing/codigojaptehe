@@ -1,0 +1,211 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jäptehe</title>
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h3 class="nav__title"> Jäptehe</h3>
+            </div>
+
+            <ul class="nav__link nav__links--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Blog</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Datos</a>
+                </li>
+                <img src="images/cerrar.svg" class="nav__cerrar">
+                
+                
+            </ul>
+
+            <div class="nav__menu">
+                <img src="images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Diseño y desarrollo de un sistema de filtración</h1>
+            <p class="hero__paragraph">Solución que genera una manera de aprovechar aguas grises y captación de lluvia</p>
+            <a href="#" class="cta">Ver más</a>
+
+
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Qué ofrecemos?</h2>
+            <p class="about__paragraph">Estamos proponiendo una solución que genera una manera de aprovechar aguas residuales y captadas, en nuestro proyecto esta agua será tratada con un sistema en el cual se filtrará mediante rocas volcánicas, microalgas de agua dulce y biosferas</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="images/planta.svg" class="about__icon">
+                    <h3 class="about__title">Microalgas</h3>
+                    <p class="about__paragraph">Nuestro principal valor agregado radica en nuestro sistema de filtración a base de microalgas ya que contamos con recursos naturales como bien lo mencionamos antes</p>
+
+                </article>
+
+                <article class="about__icons">
+                    <img src="images/agua.svg" class="about__icon">
+                    <h3 class="about__title">Piedra Volcanica</h3>
+                    <p class="about__paragraph">más equitativa de este recurso, generando además alternativas para aprovechar las aguas residuales y captación del agua de lluvia.</p>
+
+                </article>
+                <article class="about__icons">
+                    <img src="images/bola.svg" class="about__icon">
+                    <h3 class="about__title">Biosferas</h3>
+                    <p class="about__paragraph">más equitativa de este recurso, generando además alternativas para aprovechar las aguas residuales y captación del agua de lluvia.</p>
+
+                </article>
+
+                
+
+                
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledge__texts">
+                    <h3 class="subtitle">Estudio Tecnico</h3>
+                    <p class="knowledge__paragraph">El resultado de nuestra propuesta de proyecto, es un sistema de filtración de agua, que logra disminuir la presencia de detergentes, materia orgánica, metales pesados al punto de cumplir con normas nacionales  para el tratamiento del agua. (NOM-001-SEMARNAT-2018) ¿Cuál es nuestro valor? Los recursos naturales que bien son microalgas, piedras volcánicas y algunos sensores con los cuales determinaremos cuanta agua se encuentra dentro del sistema.</a>
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="images/suhyeon-choi-HCDugQDdtfc-unsplash.jpg" class="knowledge__img">
+                </figure>
+
+            </div>
+
+
+
+        </section>
+
+        <section class="price container">
+            <h1 class="title">Conoce nuestros datos</h1>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <h3 class="price__price">Temperatura</h3>
+
+                    <div class="price__items">
+                        <p class="price__feature">Nuestro sensor nos permite conocer 
+                            la temperatura del agua en tiempo real
+                        </p>
+                    </div>
+                    <a href="#" class="price__cta">Informacion</a>
+                </div>
+
+                <div class="price__element price__element--best">
+                    <h3 class="price__price">Nivel de agua</h3>
+
+                    <div class="price__items">
+                        <p class="price__feature">Debemos conocer tambien cuanto nivel de agua tenemos en nuestro 
+                            filtro ya que solo es capaz de almacenar ciertos litros y asi podemos evitar derrames
+                            esto con ayuda de un sensor ultrasonico. 
+                        </p>
+                    </div>
+                    <a href="#" class="price__cta">Informacion</a>
+                </div>
+               
+                <div class="price__element">
+                    <h3 class="price__price">Turbidez</h3>
+
+                    <div class="price__items">
+                        <p class="price__feature">Con este sensor podemos medir cuantas particulas le dan turbidez al agua</p>
+                    </div>
+                    <a href="#" class="price__cta">Informacion</a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container">
+                <img src="images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Valentina Salgado <span 
+                         class="testimony__course">Estudiante de Ing. Diseño industrial</span></h2>
+                         <p class="testimony__review"></p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/yo.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Veronica Moctezuma, <span 
+                         class="testimony__course">Estudiante de Ing. Diseño industrial</span></h2>
+                         <p class="testimony__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Minus ex explicabo aut fugit laborum libero cum, facere totam deleniti soluta, laudantium inventore incidunt, 
+                            ipsam nulla voluptatem illo dignissimos rerum possimus!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/vero.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Luis Martinez, <span 
+                         class="testimony__course">Estudiante de Ing. Diseño Industrial</span></h2>
+                         <p class="testimony__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Minus ex explicabo aut fugit laborum libero cum, facere totam deleniti soluta, laudantium inventore incidunt, 
+                            ipsam nulla voluptatem illo dignissimos rerum possimus!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/luis.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Leonardo Rangel, <span 
+                         class="testimony__course">Estudiante de diseño industrial</span></h2>
+                         <p class="testimony__review">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Minus ex explicabo aut fugit laborum libero cum, facere totam deleniti soluta, laudantium inventore incidunt, 
+                            ipsam nulla voluptatem illo dignissimos rerum possimus!</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="images/leonardo.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+                <img src="images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        
+        
+    </main>
+    
+    <script src="./Js/slider.js"></script>
+</body>
+</html>
